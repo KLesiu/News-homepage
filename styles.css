@@ -62,7 +62,7 @@ main{
     width: 33%;
 }
 .h1Container h1{
-    font-size: 3rem;
+    font-size: 44px;
     font-weight: 800;
 }
 .readMoreContainer{
@@ -72,13 +72,13 @@ main{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    padding: 5%;
+    padding: 4%;
     width: 43%;
 
 }
 .readMoreContainer p{
     color: hsl(228, 45%, 44%);
-    font-size: 18px;
+    font-size: 17px;
     text-align: left;
 }
 .readMoreContainer button{
@@ -101,9 +101,9 @@ aside{
     display: flex;
     flex-direction: column;
     height: 67vh;
-    margin-left:2%;
+    margin-left:4%;
     
-    width: 30%;
+    width: 29%;
 
 }
 aside h2{
@@ -115,7 +115,7 @@ aside div{
     border-bottom: 1px solid hsl(228, 45%, 44%);
     color: hsl(233, 8%, 79%); 
     height: 30%;
-    font-size: 18px;
+    font-size: 16px;
     margin: 5%;
 }
 .lastAside{
@@ -124,7 +124,7 @@ aside div{
 aside div h3{
     color: hsl(36, 100%, 99%);
     height: 10%;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 2%;
 }
@@ -178,4 +178,42 @@ aside div h3:hover{
 .bottomContainer div section h4:hover{
     color: hsl(35, 77%, 62%);
     cursor: pointer;
+}
+
+@media screen and (max-width:1400px) {
+    aside div{
+        font-size: 14px;
+    }
+    aside div h3{
+        font-size: 17px;
+    }
+    .h1Container h1{
+        font-size: 38px ;
+    }
+    .readMoreContainer p{
+        font-size: 13px;
+    }
+    .readMoreContainer button{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .readMoreContainer button{
+        font-size: 15px;
+    }
+    aside div{
+        font-size: 12px;
+    }
+    aside div h3{
+        font-size: 15px;
+    }
+    .bottomContainer div section p{
+        font-size: 15px;
+    }
+    .bottomContainer div section h4{
+        font-size: 20px;
+    }
+    .readMoreContainer p{
+        font-size: 12px;
+    }
 }
